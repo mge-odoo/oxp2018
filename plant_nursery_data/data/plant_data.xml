@@ -50,6 +50,7 @@
     <p>No. We're on the top. And I'm his friend Jesus. <strong> And yet you haven't said what I told you to say!</strong> <em> How can any of us trust you?</em> I videotape every customer that comes in here, so that I may blackmail them later.</p>
     <h4>Anyone who laughs is a communist!</h4>
 </div></field>
+        <field name="promo">True</field>
         </record>
         <record id="plant_1" model="nursery.plant">
             <field name="name">Dracaena Marginata</field>
@@ -70,6 +71,7 @@
         <li>You can't expect to wield supreme power just 'cause some watery tart threw a sword at you!</li><li>It's only a model.</li><li>Well, I got better.</li>
     </ol>
 </div></field>
+        <field name="promo">True</field>
         </record>
         <record id="plant_2" model="nursery.plant">
             <field name="name">Ravena Rivularis</field>
@@ -94,6 +96,7 @@
     <p>Camelot! Why? Burn her anyway! Now, look here, my good man. I dunno. Must be a king.</p>
     <p>We shall say 'Ni' again to you, if you do not appease us. Shh! Knights, I bid you welcome to your new home. Let us ride to Camelot! Camelot! Shh! Knights, I bid you welcome to your new home. Let us ride to Camelot!</p>
 </div></field>
+         <field name="promo">True</field>
         </record>
 
         <record id="plant_3" model="nursery.plant">
@@ -118,6 +121,7 @@
     </ul>
     <p>Ni! Ni! Ni! Ni! Shh! Knights, I bid you welcome to your new home. Let us ride to Camelot! The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king.</p>
 </div></field>
+        <field name="promo">True</field>
         </record>
         <record id="plant_4" model="nursery.plant">
             <field name="name">Orange Potted Tree</field>
