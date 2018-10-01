@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- Snippet template -->
+<template id="s_promo_plants" name="Plants in Promo">
+    <section class="s_promo_plants" data-limit="3" style="background-color: #865b7a">
+        <div class="container" style="background-color: #865b7a">
+            <h2>Plants in Promo</h2>
+            <div class="row">
+            </div>
+        </div>
+    </section>
+</template>
+
+
+<!-- Add the snippet in the Snippet menu section "Effects" -->
+<template id="snippet_promo_plants" inherit_id="website.snippets">
+    <xpath expr="//div[@id='snippet_effect']/div[contains(@class, 'o_panel_body')]" position="inside">
+        <t t-snippet="plant_nursery.s_promo_plants" t-thumbnail="/plant_nursery/static/description/icon.png"/>
+    </xpath>
+</template>
+
+
+<!-- Snippet options -->
+<template id="snippet_promo_plants_options" inherit_id="website.snippet_options">
+    <xpath expr="." position="inside">
+        <!-- data=js: same name as the JS snippet name -->
+        <!-- data-selector: jQuery selector the match the snippet occrences -->
+        <div data-js="sPromoPlant" data-selector=".s_promo_plants">
+            <div class="dropdown-submenu">
+                <a tabindex="-1" href="#"><i class="fa fa-magic"/>Number of Plants</a>
+                <div class="dropdown-menu">
+                    <a href="#" data-limit="1" class="dropdown-item">1</a>
+                    <a href="#" data-limit="2" class="dropdown-item">2</a>
+                    <a href="#" data-limit="3" class="dropdown-item">3</a>
+                    <a href="#" data-limit="4" class="dropdown-item">4</a>
+                </div>
+            </div>
+        </div>
+    </xpath>
+</template>
+</odoo>

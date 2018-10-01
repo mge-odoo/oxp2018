@@ -98,6 +98,9 @@
 <template id="plant_layout" name="Frontend Layout">
     <t t-call="website.layout">
         <div id="wrap" class='o_portal_wrap'>
+            <!-- Used to add your custom snippet -->
+            <div class="oe_structure" id="oe_structure_plant_nursery_plant_1"/>
+
             <div class="container mb64">
                 <div t-if="error and error == 'access'">
                     <div class="alert alert-warning">
@@ -130,6 +133,9 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Used to to customize this page with the website editor -->
+            <div class="oe_structure" id="oe_structure_plant_nursery_plant_2"/>
         </div>
     </t>
 </template>
